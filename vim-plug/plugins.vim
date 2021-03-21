@@ -89,4 +89,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" float term
 	Plug 'voldikss/vim-floaterm'
 
+	" Telescope baby!!
+	Plug 'nvim-lua/popup.nvim'
+	Plug 'nvim-lua/plenary.nvim'
+	Plug 'nvim-telescope/telescope.nvim'
+	
 call plug#end()
