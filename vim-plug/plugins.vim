@@ -48,6 +48,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Web icons
 	Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
+	Plug 'yamatsum/nvim-web-nonicons'
 	
 	" Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
