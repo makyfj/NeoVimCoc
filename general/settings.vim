@@ -37,7 +37,7 @@ set clipboard+=unnamedplus              " Copy paste between vim and everything 
 set undofile
 set autochdir                           " Your working directory will always be the same as your working directory
 set termguicolors
-set colorcolumn=80
+" set colorcolumn=90 
 set signcolumn=yes
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
