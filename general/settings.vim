@@ -41,6 +41,8 @@ set autochdir                           " Your working directory will always be 
 set termguicolors
 " set colorcolumn=90 
 set signcolumn=yes
+autocmd BufNewFile,BufRead * setlocal formatoptions-=r " Disables comments when hit enter in insert mode
+autocmd BufNewFile,BufRead * setlocal formatoptions-=o " Disables comment for o or O
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
