@@ -53,3 +53,6 @@ let g:python3_host_prog = '/usr/bin/python3'
 
 " prettier command
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+" vim-commentary
+autocmd FileType apache setlocal commentstring=#\ %s

@@ -81,8 +81,10 @@
     "farmstand",
     "floaterm",
     "latlng",
+    "nominatim",
     "nvcode",
     "nvim",
+    "openstreetmap",
     "rnvimr"
   ],
   "cSpell.enabledLanguageIds": [

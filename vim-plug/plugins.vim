@@ -1,5 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+	" Vim wiki, notetaking :)
+	Plug 'vimwiki/vimwiki'
+
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
 	
@@ -60,7 +63,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
 	
     " Bracey - Live Server for HTML, CSS, JS
-	Plug 'turbio/bracey.vim'
+	Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
 	
     " Git Integration
     Plug 'tpope/vim-fugitive'
