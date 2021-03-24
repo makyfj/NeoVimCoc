@@ -81,6 +81,8 @@
     "farmstand",
     "floaterm",
     "latlng",
+    "locationerror",
+    "locationfound",
     "nominatim",
     "nvcode",
     "nvim",
