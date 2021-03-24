@@ -1,3 +1,3 @@
 # NeoVimCoc
 
-### Personal NeoVim configuration focused around CoC
+Personal NeoVim configuration focused around CoC
