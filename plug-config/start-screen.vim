@@ -15,6 +15,7 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
             \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 'w': '~/.config/nvim/index.md' },
             \ ]
 
 let g:startify_session_autoload = 1

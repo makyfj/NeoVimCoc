@@ -71,13 +71,16 @@
   },
   "cSpell.userWords": [
     "Farmingdale",
+    "Farmstands",
     "Fira",
+    "Formik",
     "Jara",
     "LONGBLOB",
     "Toffler",
     "VARCHAR",
     "Witte",
     "bracey",
+    "coverimage",
     "farmstand",
     "floaterm",
     "latlng",
@@ -87,7 +90,11 @@
     "nvcode",
     "nvim",
     "openstreetmap",
-    "rnvimr"
+    "rnvimr",
+    "searchterm",
+    "searchtype",
+    "xhttp",
+    "zipcode"
   ],
   "cSpell.enabledLanguageIds": [
     "asciidoc",

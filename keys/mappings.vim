@@ -47,6 +47,9 @@ nnoremap <Leader>O O<Esc>^Da
 " c++ compiler
 nnoremap <C-m> :!g++ -std=c++17 % -Wall -g -o %.out && ./%.out<CR>
 
+" python compiler
+nnoremap <C-p> :w !python3<CR>
+
 " cSpell
 vmap <leader>qq <Plug>(coc-codeaction-selected)
 nmap <leader>qq <Plug>(coc-codeaction-selected)
