@@ -6,8 +6,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
 	
-    " File Explorer
-    Plug 'scrooloose/NERDTree'
+    " File Explorer -- Coc-Explorer is better :)
+    " Plug 'scrooloose/NERDTree'
 	
 	" Treesitter
     Plug 'nvim-treesitter/playground'
