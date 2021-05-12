@@ -16,7 +16,7 @@
     "graphql",
     "vim"
   ],
-  
+
   "suggest.highPrioritySourceLimit": 100,
   "suggest.lowPrioritySourceLimit": 98,
   "snippets.priority": 99,
@@ -27,7 +27,7 @@
   "emmet.includeLanguages": {
     "vue-html": "html",
     "javascript": "javascriptreact",
-	"typescript": "typescriptreact"
+    "typescript": "typescriptreact"
   },
   // html config
   "html.enable": true,
@@ -50,12 +50,8 @@
   "python.pythonPath": "/usr/bin/python",
 
   // Snippets
-  "coc.source.ultisnips.filetypes":["text"],
-    "snippets.ultisnips.directories": [
-        "UltiSnips",
-        "~/.config/nvim/utils/snips"
-    ],
-
+  "coc.source.ultisnips.filetypes": ["text"],
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
 
   // floaterm
   "floaterm.completion.enable": true,
@@ -70,29 +66,45 @@
     "v": "open:vsplit"
   },
   "cSpell.userWords": [
+    "FEARE",
     "Farmingdale",
     "Farmstands",
     "Fira",
     "Formik",
     "Jara",
     "LONGBLOB",
+    "Linkedin",
+    "PAYPAL",
+    "Todos",
     "Toffler",
     "VARCHAR",
+    "Valverde",
     "Witte",
     "bracey",
     "coverimage",
+    "debugpy",
     "farmstand",
+    "fieldname",
     "floaterm",
+    "fontawesome",
+    "fortawesome",
     "latlng",
     "locationerror",
     "locationfound",
+    "myorders",
     "nominatim",
     "nvcode",
     "nvim",
     "openstreetmap",
+    "orderlist",
+    "originalname",
+    "placeorder",
+    "productlist",
+    "respawn",
     "rnvimr",
     "searchterm",
     "searchtype",
+    "userlist",
     "xhttp",
     "zipcode"
   ],

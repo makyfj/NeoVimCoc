@@ -45,7 +45,7 @@ nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
 " c++ compiler
-nnoremap <C-m> :!g++ -std=c++17 % -Wall -g -o %.out && ./%.out<CR>
+nnoremap <C-\> :!g++ -std=c++17 % -Wall -g -o %.out && ./%.out<CR>
 
 " python compiler
 nnoremap <C-p> :w !python3<CR>
