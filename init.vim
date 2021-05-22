@@ -1,15 +1,12 @@
 " Essentials
 source $HOME/.config/nvim/vim-plug/plugins.vim
-" source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
 " Theme
 source $HOME/.config/nvim/themes/syntax.vim
 source $HOME/.config/nvim/themes/nvcode.vim
-source $HOME/.config/nvim/themes/lightline.vim
-source $HOME/.config/nvim/themes/barbar.vim
-"source $HOME/.config/nvim/plug-config/barbar.vim
 
 " LSP
 source $HOME/.config/nvim/plug-config/coc/coc.vim
