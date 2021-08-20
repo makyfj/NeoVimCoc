@@ -17,6 +17,9 @@
     "vim"
   ],
 
+  // prettier
+  "prettier.printWidth": 80,
+
   "suggest.highPrioritySourceLimit": 100,
   "suggest.lowPrioritySourceLimit": 98,
   "snippets.priority": 99,
@@ -76,6 +79,7 @@
     "LONGBLOB",
     "Linkedin",
     "MERN",
+    "Maky",
     "PAYPAL",
     "SCCC",
     "Todos",
@@ -84,6 +88,7 @@
     "Valverde",
     "Witte",
     "bracey",
+    "clustername",
     "coverimage",
     "debugpy",
     "farmstand",
@@ -96,6 +101,7 @@
     "locationfound",
     "makyfj",
     "myorders",
+    "nextjs",
     "nominatim",
     "nvcode",
     "nvim",
@@ -104,6 +110,7 @@
     "originalname",
     "placeorder",
     "productlist",
+    "renderes",
     "respawn",
     "rnvimr",
     "searchterm",
