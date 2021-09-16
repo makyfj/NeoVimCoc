@@ -3,6 +3,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Vim wiki, notetaking :)
     Plug 'vimwiki/vimwiki'
 
+    " Markdown Preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
     " File Explorer -- Coc-Explorer is better :)
     " Plug 'scrooloose/NERDTree'
 	

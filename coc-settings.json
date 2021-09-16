@@ -14,11 +14,24 @@
     "typescript",
     "jsx",
     "graphql",
-    "vim"
+    "vim",
+    "scss"
   ],
 
   // prettier
   "prettier.printWidth": 80,
+
+  // coc-import-cost
+  // File extensions to be parsed by the Typescript parser
+  "importCost.typescriptExtensions": ["\\.tsx?$"],
+  // File extensions to be parsed by the Javascript parser
+  "importCost.javascriptExtensions": ["\\.jsx?$"],
+  // Which bundle size to display
+  "importCost.bundleSizeDecoration": "both",
+  // Display the 'calculating' decoration
+  "importCost.showCalculatingDecoration": true,
+  // Print debug messages in output channel
+  "importCost.debug": false,
 
   "suggest.highPrioritySourceLimit": 100,
   "suggest.lowPrioritySourceLimit": 98,
@@ -49,7 +62,6 @@
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "python.jediEnabled": true,
   "python.pythonPath": "/usr/bin/python",
 
   // Snippets
@@ -71,6 +83,7 @@
   "cSpell.userWords": [
     "Adelphi",
     "Autobind",
+    "Cloudinary",
     "FEARE",
     "Farmingdale",
     "Farmstands",
@@ -81,28 +94,37 @@
     "Linkedin",
     "MERN",
     "Maky",
+    "Nerdfont",
     "PAYPAL",
     "SCCC",
     "Todos",
     "Toffler",
+    "Trello",
     "VARCHAR",
     "Valverde",
     "Witte",
+    "apos",
     "bracey",
+    "chakra",
     "clustername",
     "coverimage",
+    "cplusplus",
     "debugpy",
+    "devicon",
     "farmstand",
     "fieldname",
     "floaterm",
     "fontawesome",
     "fortawesome",
+    "goldwasser",
     "latlng",
     "locationerror",
     "locationfound",
     "makyfj",
+    "materialui",
     "metacritic",
     "minmax",
+    "mixins",
     "myorders",
     "nextjs",
     "nominatim",
@@ -113,14 +135,19 @@
     "originalname",
     "placeorder",
     "productlist",
+    "pylint",
     "reduxjs",
     "renderes",
     "respawn",
     "rnvimr",
     "searchterm",
     "searchtype",
+    "slidein",
+    "tabnine",
+    "ultisnips",
     "userlist",
     "validatable",
+    "vsplit",
     "xhttp",
     "zipcode"
   ],
