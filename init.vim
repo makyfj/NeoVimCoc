@@ -6,7 +6,7 @@ source $HOME/.config/nvim/keys/mappings.vim
 
 " Theme
 source $HOME/.config/nvim/themes/syntax.vim
-source $HOME/.config/nvim/themes/nvcode.vim
+source $HOME/.config/nvim/plug-config/onedark.vim
 
 " LSP
 source $HOME/.config/nvim/plug-config/coc/coc.vim

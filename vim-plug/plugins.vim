@@ -23,8 +23,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-sleuth'
 
     " Themes
-    Plug 'christianchiarulli/nvcode-color-schemes.vim'
-    Plug 'joshdick/onedark.vim'
+    Plug 'navarasu/onedark.nvim'
 
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
