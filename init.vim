@@ -12,6 +12,7 @@ source $HOME/.config/nvim/themes/nvcode.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
 
 " General plugins
+source $HOME/.config/nvim/plug-config/neoscroll.vim
 luafile $HOME/.config/nvim/lua/nvim-ts-rainbow.lua
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim

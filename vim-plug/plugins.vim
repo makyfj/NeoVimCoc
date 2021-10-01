@@ -1,5 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " Better scrolling
+    Plug 'karb94/neoscroll.nvim'
+
     " Vim wiki, notetaking :)
     Plug 'vimwiki/vimwiki'
 
