@@ -3,16 +3,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better scrolling
     Plug 'karb94/neoscroll.nvim'
 
-    " Vim wiki, notetaking :)
-    Plug 'vimwiki/vimwiki'
-
-    " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-
-    " File Explorer -- Coc-Explorer is better :)
-    " Plug 'scrooloose/NERDTree'
-	
-	" Treesitter
+    " Treesitter
     Plug 'nvim-treesitter/playground'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
@@ -51,9 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
 
     " Web icons
-    " Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    " Plug 'yamatsum/nvim-web-nonicons'
     
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'

@@ -17,21 +17,27 @@
     "vim",
     "scss"
   ],
+  // GraphQL
+  "languageserver": {
+    "graphql": {
+      "command": "graphql-lsp",
+      "args": ["server", "-m", "stream"],
+      // customize filetypes to your needs
+      "filetypes": [
+        "typescript",
+        "typescriptreact",
+        "graphql",
+        "javascript",
+        "javascriptreact"
+      ]
+    }
+  },
 
   // prettier
   "prettier.printWidth": 80,
 
-  // coc-import-cost
-  // File extensions to be parsed by the Typescript parser
-  "importCost.typescriptExtensions": ["\\.tsx?$"],
-  // File extensions to be parsed by the Javascript parser
-  "importCost.javascriptExtensions": ["\\.jsx?$"],
-  // Which bundle size to display
-  "importCost.bundleSizeDecoration": "both",
-  // Display the 'calculating' decoration
-  "importCost.showCalculatingDecoration": true,
-  // Print debug messages in output channel
-  "importCost.debug": false,
+  // coc-eslint
+  "eslint.autoFixOnSave": true,
 
   "suggest.highPrioritySourceLimit": 100,
   "suggest.lowPrioritySourceLimit": 98,
@@ -74,7 +80,13 @@
   "floaterm.completion.priority": 5,
 
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 40,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.file.hiddenRules": {
+    "extensions": ["o", "a", "obj", "pyc", "git"],
+    "filenames": ["env"],
+    "patternMatches": ["^\\."]
+  },
   "explorer.icon.enableNerdfont": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
@@ -82,6 +94,7 @@
   },
   "cSpell.userWords": [
     "Adelphi",
+    "Alexa",
     "Autobind",
     "Cloudinary",
     "Completionist",
@@ -123,15 +136,20 @@
     "fontawesome",
     "fortawesome",
     "goldwasser",
+    "ifoundthis",
     "latlng",
+    "lireddit",
     "locationerror",
     "locationfound",
     "makyfj",
     "materialui",
     "metacritic",
+    "mikro",
     "minmax",
     "mixins",
     "myorders",
+    "nestjs",
+    "nestjsx",
     "nextjs",
     "nominatim",
     "nvcode",
@@ -139,7 +157,10 @@
     "openstreetmap",
     "orderlist",
     "originalname",
+    "ormconfig",
     "placeorder",
+    "postgres",
+    "postgresql",
     "productlist",
     "pylint",
     "reduxjs",
@@ -151,6 +172,8 @@
     "slidein",
     "submenu",
     "tabnine",
+    "timestamptz",
+    "typeorm",
     "ultisnips",
     "userlist",
     "validatable",
