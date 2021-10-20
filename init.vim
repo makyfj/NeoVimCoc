@@ -12,17 +12,18 @@ source $HOME/.config/nvim/plug-config/onedark.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
 
 " General plugins
-source $HOME/.config/nvim/plug-config/neoscroll.vim
+luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/nvim-ts-rainbow.lua
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+luafile $HOME/.config/nvim/lua/comment.lua
+source $HOME/.config/nvim/plug-config/neoscroll.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
-luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/vimspector.vim
 source $HOME/.config/nvim/plug-config/maximizer.vim
 source $HOME/.config/nvim/plug-config/cheat-sh.vim
 source $HOME/.config/nvim/plug-config/bracey.vim
-luafile $HOME/.config/nvim/lua/treesitter.lua
 source $HOME/.config/nvim/plug-config/gitgutter.vim
 source $HOME/.config/nvim/plug-config/closetags.vim
 source $HOME/.config/nvim/plug-config/quick-scope.vim
