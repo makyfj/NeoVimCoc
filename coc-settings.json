@@ -1,5 +1,6 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
+    "prisma",
     "css",
     "markdown",
     "javascript",
@@ -18,20 +19,20 @@
     "scss"
   ],
   // GraphQL
-  // "languageserver": {
-  //   "graphql": {
-  //     "command": "graphql-lsp",
-  //     "args": ["server", "-m", "stream"],
-  //     // customize filetypes to your needs
-  //     "filetypes": [
-  //       "typescript",
-  //       "typescriptreact",
-  //       "graphql",
-  //       "javascript",
-  //       "javascriptreact"
-  //     ]
-  //   }
-  // },
+  "languageserver": {
+    "graphql": {
+      "command": "graphql-lsp",
+      "args": ["server", "-m", "stream"],
+      // customize filetypes to your needs
+      "filetypes": [
+        "typescript",
+        "typescriptreact",
+        "graphql",
+        "javascript",
+        "javascriptreact"
+      ]
+    }
+  },
 
   // prettier
   "prettier.printWidth": 80,
@@ -80,7 +81,7 @@
   "floaterm.completion.priority": 5,
 
   // explorer
-  "explorer.width": 35,
+  "explorer.width": 25,
   "explorer.file.showHiddenFiles": true,
   "explorer.file.hiddenRules": {
     "extensions": ["o", "a", "obj", "pyc", "git"],
@@ -93,6 +94,7 @@
     "v": "open:vsplit"
   },
   "cSpell.userWords": [
+    "Addthis",
     "Adelphi",
     "Alexa",
     "Autobind",
@@ -105,6 +107,8 @@
     "Favourited",
     "Fira",
     "Formik",
+    "Ginto",
+    "ISSERVER",
     "Jara",
     "LONGBLOB",
     "Linkedin",
@@ -114,11 +118,15 @@
     "Noto",
     "PAYPAL",
     "SCCC",
+    "Singin",
+    "Skyrim",
     "Slabo",
     "Submenus",
+    "Tobster",
     "Todos",
     "Toffler",
     "Trello",
+    "Unpublish",
     "VARCHAR",
     "Valverde",
     "Whitesboro",
@@ -132,16 +140,22 @@
     "clustername",
     "coverimage",
     "cplusplus",
+    "crossorigin",
+    "dataloader",
     "debugpy",
+    "deepmerge",
     "devicon",
     "esbuild",
     "farmstand",
     "favourites",
     "fieldname",
+    "fileupload",
     "floaterm",
     "fontawesome",
     "fortawesome",
     "goldwasser",
+    "headlessui",
+    "heroicons",
     "ifoundthis",
     "latlng",
     "lireddit",
@@ -166,8 +180,10 @@
     "ormconfig",
     "persistor",
     "placeorder",
+    "postbuild",
     "postgres",
     "postgresql",
+    "prebuild",
     "productlist",
     "pylint",
     "reduxjs",
@@ -176,18 +192,27 @@
     "rnvimr",
     "searchterm",
     "searchtype",
+    "signin",
+    "signup",
     "slidein",
     "submenu",
     "tabnine",
+    "tailwindcss",
     "timestamptz",
+    "toastify",
+    "typegen",
     "typeorm",
     "ultisnips",
+    "uploadfile",
     "userlist",
+    "uuidv",
     "validatable",
+    "vercel",
     "vite",
     "vsplit",
     "xhttp",
-    "zipcode"
+    "zipcode",
+    "zustand"
   ],
   "cSpell.enabledLanguageIds": [
     "asciidoc",

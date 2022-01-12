@@ -31,8 +31,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
 
     " Fast Comments
-    " Plug 'tpope/vim-commentary'
-    Plug 'numToStr/Comment.nvim'
+    Plug 'tpope/vim-commentary'
 
 	" Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}

@@ -1,7 +1,7 @@
 hi Comment cterm=italic
-let g:onedark_termcolors=256
-let g:onedark_style = "darker"
-let g:onedark_transparent_background="true"
+let g:termcolors=256
+let g:style = "darker"
+let g:transparent="false"
 
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))

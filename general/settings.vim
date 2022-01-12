@@ -3,7 +3,6 @@ let g:mapleader = "\<Space>"
 
 syntax enable
 set nocompatible						" Vim wiki
-filetype plugin on						" Vim wiki
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nu
 set guicursor=
