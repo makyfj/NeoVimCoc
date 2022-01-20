@@ -33,9 +33,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Fast Comments
     Plug 'tpope/vim-commentary'
 
-	" Ranger
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -53,9 +50,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Startify
     Plug 'mhinz/vim-startify'
 	
-    " Bracey - Live Server for HTML, CSS, JS
-    Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
-	
     " Git Integration
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
@@ -68,9 +62,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debugger
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
-    
-    " Cheat sheet
-    Plug 'dbeniamine/cheat.sh-vim'
 
     " quick scope
     Plug 'unblevable/quick-scope'
@@ -80,9 +71,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " surroundings
     Plug 'tpope/vim-surround'
-
-    " float term
-    Plug 'voldikss/vim-floaterm'
 
     " Telescope baby!!
     Plug 'nvim-lua/popup.nvim'
