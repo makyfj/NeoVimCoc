@@ -37,8 +37,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-commentary'
 
     " FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
 
     " Web icons
@@ -64,7 +62,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Debugger
     Plug 'puremourning/vimspector'
-    Plug 'szw/vim-maximizer'
 
     " quick scope
     Plug 'unblevable/quick-scope'
