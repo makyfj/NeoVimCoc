@@ -3,6 +3,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better scrolling
     Plug 'karb94/neoscroll.nvim'
 
+    " Copilot :)
+    Plug 'github/copilot.vim'
+
     " Treesitter
     Plug 'nvim-treesitter/playground'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
