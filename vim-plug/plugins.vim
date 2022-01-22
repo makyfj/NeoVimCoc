@@ -3,6 +3,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better scrolling
     Plug 'karb94/neoscroll.nvim'
 
+    " Nvim tree explorer
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'kyazdani42/nvim-tree.lua'
+
     " Copilot :)
     Plug 'github/copilot.vim'
 

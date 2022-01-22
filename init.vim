@@ -15,6 +15,7 @@ source $HOME/.config/nvim/plug-config/coc/coc.vim
 luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/nvim-ts-rainbow.lua
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+source $HOME/.config/nvim/plug-config/nvim-tree.vim
 source $HOME/.config/nvim/plug-config/neoscroll.vim
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/vimspector.vim
