@@ -10,6 +10,7 @@ source $HOME/.config/nvim/plug-config/onedark.vim
 
 " LSP
 source $HOME/.config/nvim/plug-config/coc/coc.vim
+" source $HOME/.config/nvim/lsp/lsp.vim
 
 " General plugins
 luafile $HOME/.config/nvim/lua/treesitter.lua
