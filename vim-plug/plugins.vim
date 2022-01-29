@@ -3,6 +3,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better scrolling
     Plug 'karb94/neoscroll.nvim'
 
+    " Mardown Preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
     " Nvim tree explorer
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kyazdani42/nvim-tree.lua'
