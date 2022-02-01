@@ -2,6 +2,7 @@ let g:onedark_config = {
   \ 'style': 'darker',
   \ 'toggle_style_key': '<leader>ts',
   \ 'ending_tildes': v:true,
+  \ 'transparent': v:true,
   \ 'diagnostics': {
     \ 'darker': v:true,
     \ 'background': v:true,
